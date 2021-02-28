@@ -1,1 +1,1 @@
-web: gunicorn twitoff:APP -t 120
+web: gunicorn App:APP -t 120
